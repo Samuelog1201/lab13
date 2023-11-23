@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="task-manager">
+        <div class="tasks" id="tasks-container">
+            <!-- Aquí se mostrarán las tarjetas de tareas -->
+        </div>
+        <div class="task-input">
+            <input type="text" id="task-input" placeholder="Nueva tarea">
+            <button onclick="addTask()">Agregar Tarea</button>
+        </div>
+    </div>
+
+    <!-- Nuevas secciones -->
+    <div class="section" id="completing-section">
+        <h2>Completando</h2>
+    </div>
+
+    <div class="section" id="completed-section">
+        <h2>Completadas</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
